@@ -13,3 +13,4 @@
 
 "python specific edits
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab|set softtabstop=4
+autocmd BufEnter *.m
