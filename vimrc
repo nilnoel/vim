@@ -12,7 +12,7 @@
 ":set et "makes spaces when using the tab button 
 
 "python specific edits
-autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab|set softtabstop=4
+autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab|set softtabstop=4|set foldmethod=indent|nnoremap <space> za|vnoremap <space> zf|set foldnestmax=2
 autocmd BufEnter *.m
 " IMPORTANT: grep will sometimes skip displaying the file name if you
 " " search in a singe file. This will confuse Latex-Suite. Set your grep
